@@ -69,10 +69,10 @@ uvicorn api_modelo_regressao:app --reload
 http://127.0.0.1:8000
 ```
 
-2. Faça um POST no formato JSON:
+2. Faça um POST no formato JSON (substitua 0 pelo numero de horas de estudo):
 ```JSON
 {
-  "time_study": 0 //substitua 0 pelo numero de horas de estudo
+  "time_study": 0 
 }
 ```
 ## Contribuições
